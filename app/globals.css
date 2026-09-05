@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f6f1e8;
+  --foreground: #1a1a16;
+  --forest: #1f3a2e;
+  --mist: #d8d2c6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+::selection {
+  background: #1f3a2e;
+  color: #f6f1e8;
+}
+
+:focus-visible {
+  outline: 2px solid #1f3a2e;
+  outline-offset: 3px;
+}
+
+@layer components {
+  .container-editorial {
+    @apply mx-auto w-full max-w-editorial px-5 sm:px-8 lg:px-10;
+  }
+  .kicker {
+    @apply font-sans text-[11px] font-medium uppercase tracking-wideish text-forest-soft;
+  }
+  .rule {
+    @apply border-t border-mist;
+  }
+}
+
+.article-body p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+@media (min-width: 640px) {
+  .article-body p {
+    font-size: 1.1875rem;
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#EFE8DB"/>
+  <rect x="0" y="720" width="1600" height="280" fill="#D8D2C6"/>
+  <circle cx="1280" cy="220" r="70" fill="#E8D9C4"/>
+  <path d="M0 640 C220 520 380 700 560 620 C740 540 860 700 1040 600 C1220 500 1400 580 1600 520 L1600 1000 L0 1000 Z" fill="#2E5342" opacity="0.18"/>
+  <path d="M0 760 C300 680 500 820 780 740 C1060 660 1280 780 1600 700 L1600 1000 L0 1000 Z" fill="#1F3A2E" opacity="0.22"/>
+  <text x="80" y="120" font-family="Georgia, serif" font-size="28" fill="#1F3A2E">THE YOGIC TIMES</text>
+  <text x="80" y="160" font-family="system-ui, sans-serif" font-size="14" letter-spacing="3" fill="#6B6560">PLACEHOLDER IMAGE</text>
+</svg>
